@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 //components
-import {Header} from "../components";
+import {Header, Nav} from "../components";
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
         {/****Header component*/}
         <Header />
         {/*****nav component*******/}
+        <Nav />
         {/*******Results Component!**************/}
 
     </div>
