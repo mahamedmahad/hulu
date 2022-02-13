@@ -1,10 +1,20 @@
+import Head from "next/head";
 
-import styles from '../styles/Home.module.css'
+//components
+import {Header} from "../components";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <h2>Hulu</h2>
+    <div>
+        <Head>
+            <title>Hulu Clone</title>
+            <link rel={"icon"} href={"/hulu.ico"}/>
+        </Head>
+        {/****Header component*/}
+        <Header />
+        {/*****nav component*******/}
+        {/*******Results Component!**************/}
+
     </div>
   )
 }
