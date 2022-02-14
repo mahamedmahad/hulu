@@ -9,7 +9,6 @@ import {Header, Nav, Results} from "../components";
 export default function Home({results}) {
 
 
-
   return (
     <div>
         <Head>

@@ -7,7 +7,7 @@ const Nav = () => {
 
     return (
         <nav className={"relative"}>
-            <div className={"flex items-center sm:justify-center px-10 sm:px-20 " +
+            <div className={"flex items-center sm:justify-between px-10 sm:px-20 " +
                 "text-2xl whitespace-nowrap space-x-10 " +
                 "sm:space-x-20 overflow-y-scroll scrollbar-hide"}>
                 {Object.entries(requests).map(([key, {title, url}]) =>(
